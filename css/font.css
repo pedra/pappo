@@ -1,15 +1,15 @@
-		@font-face {
-			font-family: Author;
-			src: url(/font/J4WWWV5RAQXSNV6FEZNCUHMQ3BYNLNIH.woff2);
-			font-display: block;
-			font-style: normal;
-			font-weight: 600
-		}
+@font-face {
+    font-family: Author;
+    src: url(/font/J4WWWV5RAQXSNV6FEZNCUHMQ3BYNLNIH.woff2);
+    font-display: block;
+    font-style: normal;
+    font-weight: 600
+}
 
-		@font-face {
-			font-family: Author;
-			src: url(/font/6LYCTMFTSOH5KPOR5B2XLUTK5R6YPJEE.woff2);
-			font-display: block;
-			font-style: normal;
-			font-weight: 500
-		}
+@font-face {
+    font-family: Author;
+    src: url(/font/6LYCTMFTSOH5KPOR5B2XLUTK5R6YPJEE.woff2);
+    font-display: block;
+    font-style: normal;
+    font-weight: 500
+}
