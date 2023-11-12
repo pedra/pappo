@@ -1,0 +1,150 @@
+.plans {
+	color: var(--color-plans);
+	background: var(--bg-plans);
+	width: 100%;
+	text-align: center;
+	padding: 4rem;
+}
+
+.pln-title {
+	margin: 0 0 4rem 0;
+}
+
+.pln-title h2,
+.pln-title h3 {
+	font-family: Author, sans-serif;
+	font-size: 3rem;
+	line-height: 3rem;
+}
+
+.pln-cards {
+	display: flex;
+	gap: 2rem;
+	justify-content: center;
+	flex-wrap: wrap;
+	margin: 0 0 3rem 0
+}
+
+.pln-cards ul li {
+	list-style: none;
+	display: flex;
+	align-items: center;
+	gap: .6rem;
+	padding: .4rem 0;
+}
+
+.pln-card,
+.pln-card.pln-black {
+	padding: 2rem;
+	border-radius: 2rem;
+	border: 1px solid #bbb;
+	text-align: left;
+}
+
+.pln-info {
+	font-family: 'Marope', sans-serif;
+	font-size: .9rem;
+	color: var(--info-plans);
+}
+
+.pln-card h4 {
+	font-size: 1.8rem;
+	font-family: Inter, sans-serif;
+}
+
+.pln-card p {
+	font-family: 'Marope', sans-serif;
+	font-size: 2rem;
+}
+
+.pln-card hx {
+	font-size: 0.8rem;
+	font-family: Inter, sans-serif;
+	color: #1C1E1C;
+}
+
+.pln-card li span {}
+
+.pln-card li span {
+	font-variation-settings: 'FILL' 1;
+}
+
+/* ------ Black Card */
+.pln-black {
+	background: var(--bg);
+	color: var(--color);
+}
+
+.pln-card.pln-black li span {
+	font-variation-settings: 'FILL' 1;
+
+}
+
+.pln-black hx {
+	color: var(--color);
+}
+
+/* ------- Footer */
+
+.pln-footer {
+	font-family: 'Marope', sans-serif;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 2rem;
+}
+
+.pln-footer p {
+	font-size: 1.3rem;
+}
+
+.pln-footer button {
+	transition: .6s;
+	display: flex;
+	/* height: 52px; */
+	min-width: 20rem;
+	padding: 1rem 2rem;
+	border-radius: 3rem;
+	font-size: 1.3rem;
+	align-items: center;
+	background: none;
+	border: 1px solid #dddddd;
+	justify-content: space-between;
+	cursor: pointer;
+}
+
+.pln-footer button span.material-symbols-outlined {
+	transition: .2s;
+}
+
+.pln-avatar {
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+}
+
+.pln-avatar-data {
+	margin: .5rem 0 0 .7rem;
+}
+
+.pln-avatar h3 {
+	text-align: left;
+	line-height: .8rem;
+}
+
+.pln-avatar-data img {
+	width: 48px;
+	height: 48px;
+	border-radius: 50%;
+}
+
+.pln-footer button:hover {
+	transition: 2s;
+	background: var(--bg);
+	color: var(--color);
+}
+
+.pln-footer button:hover .material-symbols-outlined {
+	margin-right: -1rem;
+	font-variation-settings: 'FILL' 1;
+}

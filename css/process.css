@@ -24,7 +24,7 @@
 	height: 40vw;
 	max-width: 380px;
 	max-height: 250px;
-	margin: 0;
+	margin: 0 0 4rem 0;
 	color: white;
 	perspective: 1000px;
 	transform-origin: center;
@@ -62,17 +62,14 @@
 }
 
 .icon-cards__item:nth-child(1) {
-	/* background: #FDD94F; */
 	transform: rotateY(0) translateZ(35vw);
 }
 
 .icon-cards__item:nth-child(2) {
-	/* background: #F87949; */
 	transform: rotateY(120deg) translateZ(35vw);
 }
 
 .icon-cards__item:nth-child(3) {
-	/* background: #FBAB48; */
 	transform: rotateY(240deg) translateZ(35vw);
 }
 
@@ -121,17 +118,6 @@
 		transform: translateZ(-35vw) rotateY(-360deg);
 	}
 }
-
-
-/* body {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  background: #110F15;
-} */
-
-
 
 @-webkit-keyframes jelly {
 	from {

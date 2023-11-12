@@ -3,7 +3,9 @@
 @import url(./font.css);
 @import url(./splash.css);
 @import url(./process.css);
+@import url(./plans.css);
 @import url(./footer.css);
+
 
 *{
     margin:0;

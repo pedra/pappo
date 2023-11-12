@@ -1,12 +1,10 @@
 
 
 footer {
-
 	font-family: 'Manrope', sans-serif;
 	font-size: 1rem;
 	color: var(--color-footer);
 	background: var(--bg-footer);
-
 }
 
 footer a {
@@ -31,15 +29,9 @@ footer li {
 	gap: 1rem;
 }
 
-.ftr-right {
-
-
-}
-
 .ftr-footer {
 	display: flex;
 	justify-content: space-between;
-
 	border-top: 1px solid  #222;
 	padding: 2rem 0;
 }
