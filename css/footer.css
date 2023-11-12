@@ -1,0 +1,45 @@
+
+
+footer {
+
+	font-family: 'Manrope', sans-serif;
+	font-size: 1rem;
+	color: var(--color-footer);
+	background: var(--bg-footer);
+
+}
+
+footer a {
+	text-decoration: none;
+	color: var(--color-footer);
+}
+
+footer li {
+	list-style: none;
+}
+
+.ftr-content {
+	display: flex;
+	justify-content: space-between;
+	padding: 2rem 0;
+}
+
+.ftr-left,
+.ftr-right {
+	display: flex;
+	flex-direction: column;
+	gap: 1rem;
+}
+
+.ftr-right {
+
+
+}
+
+.ftr-footer {
+	display: flex;
+	justify-content: space-between;
+
+	border-top: 1px solid  #222;
+	padding: 2rem 0;
+}
